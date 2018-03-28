@@ -59,6 +59,24 @@
             <path>
               <item name="sd-assignment-1-fodorutioan" type="b2602c69:ProjectViewProjectNode" />
               <item name="SINU" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sd-assignment-1-fodorutioan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SINU" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sd-assignment-1-fodorutioan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SINU" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SINU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sd-assignment-1-fodorutioan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SINU" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -199,7 +217,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522255854106</updated>
       <workItem from="1522255857111" duration="64000" />
-      <workItem from="1522256755512" duration="453000" />
+      <workItem from="1522256755512" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1522256907596</created>
@@ -212,7 +230,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517000" />
+    <option name="totallyTimeSpent" value="714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="449" y="24" width="1857" height="1092" extended-state="6" />
