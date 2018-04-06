@@ -1,7 +1,7 @@
 package PersistanceLayer.DAOs;
 
-import Services.ConnectionFactory;
-import Services.SQLQueryBuilder;
+import Utils.ConnectionFactory;
+import Utils.SQLQueryBuilder;
 
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;

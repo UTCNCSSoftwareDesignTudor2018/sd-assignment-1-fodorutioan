@@ -1,0 +1,64 @@
+package BussinessLayer.BussinessLogic;
+
+import BussinessLayer.Validators.*;
+import PersistanceLayer.DAOs.StudentDAO;
+import PersistanceLayer.Entities.Student;
+
+/**
+ * Created by Ioan on 3/27/2018.
+ */
+public class StudentBLL {
+
+    private StudentDAO studentDAO;
+
+    private LogInValidator logInValidator;
+    private NameValidator nameValidator;
+    private IDValidator idValidator;
+    private GroupValidator groupValidator;
+    private EmailValidator emailValidator;
+    private AddressValidator addressValidator;
+    private CNPValidator cnpValidator;
+
+    public StudentBLL() {
+        studentDAO = new StudentDAO();
+    }
+
+    public Student logIn(String username, String password) {
+        Student student = studentDAO.findStudentByUserName(username);
+        logInValidator = new LogInValidator();
+        if (logInValidator.validateStudentLogIn(student, password)) {
+            return student;
+        } else {
+            return null;
+        }
+    }
+
+    public boolean update(String name, String address, String CNP, String email, String group, Long ID) {
+
+        nameValidator = new NameValidator();
+        idValidator = new IDValidator();
+        groupValidator = new GroupValidator();
+        emailValidator = new EmailValidator();
+        addressValidator = new AddressValidator();
+        cnpValidator = new CNPValidator();
+
+        if (nameValidator.validate(name) &&
+                idValidator.validate(ID) //&&
+                //groupValidator.validate(group) &&
+                //emailValidator.validate(email) &&
+                //addressValidator.validate(address) &&
+                /*cnpValidator.validate(CNP)*/) {
+
+                if (studentDAO.update(name, address, CNP, email, group, ID)) {
+                    return true;
+                }
+
+        } else {
+            System.out.println("Invalid data!");
+            return false;
+        }
+
+        return false;
+    }
+
+}
