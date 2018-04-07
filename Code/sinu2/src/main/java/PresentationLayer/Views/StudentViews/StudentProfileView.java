@@ -199,6 +199,7 @@ public class StudentProfileView extends JFrame {
     }
 
     public String getAddress() {
+        System.out.println(addressTextField.getText());
         return addressTextField.getText();
     }
 

@@ -6,23 +6,33 @@ import java.sql.Date;
  * Created by Ioan on 3/27/2018.
  */
 public class Course {
-    private String courseID;
+    private Long courseID;
+    private String courseName;
     private Date startDate;
     private Date endDate;
-    private String teacherID;
+    private Long teacherID;
 
-    public Course(String courseID, Date startDate, Date endDate, String teacherID) {
+    public Course(Long courseID, String courseName, Date startDate, Date endDate, Long teacherID) {
         this.courseID = courseID;
+        this.courseName = courseName;
         this.startDate = startDate;
         this.endDate = endDate;
         this.teacherID = teacherID;
     }
 
-    public String getCourseID() {
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public Long getCourseID() {
         return courseID;
     }
 
-    public void setCourseID(String courseID) {
+    public void setCourseID(Long courseID) {
         this.courseID = courseID;
     }
 
@@ -42,11 +52,11 @@ public class Course {
         this.endDate = endDate;
     }
 
-    public String getTeacherID() {
+    public Long getTeacherID() {
         return teacherID;
     }
 
-    public void setTeacherID(String teacherID) {
+    public void setTeacherID(Long teacherID) {
         this.teacherID = teacherID;
     }
 }

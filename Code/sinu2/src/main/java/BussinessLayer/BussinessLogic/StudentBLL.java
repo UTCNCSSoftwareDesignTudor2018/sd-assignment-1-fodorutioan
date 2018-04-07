@@ -43,11 +43,11 @@ public class StudentBLL {
         cnpValidator = new CNPValidator();
 
         if (nameValidator.validate(name) &&
-                idValidator.validate(ID) //&&
-                //groupValidator.validate(group) &&
-                //emailValidator.validate(email) &&
-                //addressValidator.validate(address) &&
-                /*cnpValidator.validate(CNP)*/) {
+                idValidator.validate(ID) &&
+                groupValidator.validate(group) &&
+                emailValidator.validate(email) &&
+                addressValidator.validate(address) &&
+                cnpValidator.validate(CNP)) {
 
                 if (studentDAO.update(name, address, CNP, email, group, ID)) {
                     return true;

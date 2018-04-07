@@ -17,6 +17,8 @@ public class ExamRegisterController {
     public ExamRegisterController(Student student) {
         this.student = student;
         this.studentBLL = new StudentBLL();
+        this.examRegisterView = new ExamRegisterView();
+        this.examRegisterView.addBackButtonListener(new BackButtonListener());
     }
 
     public class BackButtonListener implements ActionListener {

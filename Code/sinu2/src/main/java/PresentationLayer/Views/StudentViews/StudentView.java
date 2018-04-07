@@ -34,6 +34,10 @@ public class StudentView extends JFrame {
         enrollCourseButton.addActionListener(listenForEnrollButton);
     }
 
+    public void addExamRegisterButtonListener(ActionListener listenForEnrollButton) {
+        registerForExamSessionButton.addActionListener(listenForEnrollButton);
+    }
+
     private void createUIComponents() {
         this.logo = new JLabel();
         ImageIcon imageIcon = new ImageIcon("/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/UTCN_2_EN.png");

@@ -1,5 +1,6 @@
 package PresentationLayer.Controllers;
 
+import BussinessLayer.BussinessLogic.ExamBLL;
 import BussinessLayer.BussinessLogic.StudentBLL;
 import PersistanceLayer.Entities.Student;
 import PresentationLayer.Views.StudentViews.StudentView;
@@ -14,6 +15,7 @@ class StudentController {
     private StudentView studentView;
     private StudentProfileController studentProfileController;
     private EnrollController enrollController;
+    private ExamRegisterController examRegisterController;
 
     StudentController(Student student) {
         studentView = new StudentView();
@@ -21,6 +23,7 @@ class StudentController {
         this.studentBLL = new StudentBLL();
         studentView.addPublicProfileButtonListener(new PublicProfileButtonListener());
         studentView.addEnrollCourseButtonListener(new EnrollButtonListener());
+        studentView.addExamRegisterButtonListener(new ExamRegisterButtonListener());
     }
 
     public class PublicProfileButtonListener implements ActionListener {
@@ -39,4 +42,11 @@ class StudentController {
         }
     }
 
+    public class ExamRegisterButtonListener implements ActionListener {
+
+        public void actionPerformed(ActionEvent e) {
+            studentView.setVisible(false);
+            examRegisterController = new ExamRegisterController(student);
+        }
+    }
 }
