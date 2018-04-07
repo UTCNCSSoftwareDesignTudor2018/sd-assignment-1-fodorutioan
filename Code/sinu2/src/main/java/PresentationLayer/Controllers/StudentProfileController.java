@@ -7,14 +7,14 @@ import PresentationLayer.Views.StudentViews.StudentProfileView;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class StudentProfileController {
+class StudentProfileController {
 
     private Student student;
     private StudentBLL studentBLL;
 
     private StudentProfileView studentProfileView;
 
-    public StudentProfileController(Student student) {
+    StudentProfileController(Student student) {
         this.student = student;
         this.studentBLL = new StudentBLL();
         studentProfileView = new StudentProfileView();
@@ -85,6 +85,7 @@ public class StudentProfileController {
 
         public void actionPerformed(ActionEvent e) {
             studentProfileView.setVisible(false);
+            StudentController studentController = new StudentController(student);
         }
     }
 

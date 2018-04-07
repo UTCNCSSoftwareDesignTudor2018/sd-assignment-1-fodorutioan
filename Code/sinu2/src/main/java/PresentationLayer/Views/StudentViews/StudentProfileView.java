@@ -1,6 +1,7 @@
 package PresentationLayer.Views.StudentViews;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -45,11 +46,11 @@ public class StudentProfileView extends JFrame {
     private JLabel actualEmailLabel;
     private JLabel status;
     private JButton backButton;
+    private JLabel logo;
 
     public StudentProfileView() {
 
         this.setContentPane(backPanel);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
@@ -201,4 +202,12 @@ public class StudentProfileView extends JFrame {
         return addressTextField.getText();
     }
 
+    private void createUIComponents() {
+        this.logo = new JLabel();
+        ImageIcon imageIcon = new ImageIcon("/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/UTCN_2_EN.png");
+        Image img = imageIcon.getImage();
+        Image imgr = img.getScaledInstance(imageIcon.getIconWidth()/3,imageIcon.getIconHeight()/3, Image.SCALE_DEFAULT);
+        imageIcon = new ImageIcon(imgr);
+        this.logo.setIcon(imageIcon);
+    }
 }
