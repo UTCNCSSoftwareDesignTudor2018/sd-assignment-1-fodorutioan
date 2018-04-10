@@ -9,7 +9,7 @@ import java.util.LinkedList;
 
 public class EnrollmentBLL {
 
-    public static boolean enrollStudentToCourse(Long studentID, Long courseID) {
+    public boolean enrollStudentToCourse(Long studentID, Long courseID) {
         //System.out.println(courseName);
         IDValidator idValidator = new IDValidator();
         if (idValidator.validate(studentID) && idValidator.validate(courseID)) {
@@ -23,7 +23,7 @@ public class EnrollmentBLL {
         return false;
     }
 
-    public static LinkedList<Enrollment> selectByStudentID(Long studentID) {
+    public LinkedList<Enrollment> selectByStudentID(Long studentID) {
         IDValidator idValidator = new IDValidator();
         if (idValidator.validate(studentID)) {
             EnrollmentDAO enrollmentDAO = new EnrollmentDAO();

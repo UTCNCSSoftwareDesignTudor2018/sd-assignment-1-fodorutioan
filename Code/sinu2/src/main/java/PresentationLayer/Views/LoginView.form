@@ -17,7 +17,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="cd8773b67dcf3e681ce2"/>
+          <text value="777c76e1a8ac761a19d0"/>
         </properties>
       </component>
       <component id="64509" class="javax.swing.JTextField" binding="username">
@@ -27,7 +27,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="fprice"/>
+          <text value="tboehm"/>
         </properties>
       </component>
       <component id="4aab8" class="javax.swing.JButton" binding="studentLogInButton" default-binding="true">

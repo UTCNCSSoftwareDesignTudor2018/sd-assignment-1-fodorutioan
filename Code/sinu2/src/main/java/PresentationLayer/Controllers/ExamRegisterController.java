@@ -24,7 +24,6 @@ public class ExamRegisterController {
         initialize();
     }
 
-
     public void initialize() {
         LinkedList<Exam> examsToTake = examBLL.selectExamsNotTakenBy(student.getStudentID());
         LinkedList<Registration> registrations = registrationBLL.selectByStudentID(student.getStudentID());
@@ -42,7 +41,6 @@ public class ExamRegisterController {
             StudentController studentController = new StudentController(student);
         }
     }
-
 
     public class RegisterButtonListener implements ActionListener {
 

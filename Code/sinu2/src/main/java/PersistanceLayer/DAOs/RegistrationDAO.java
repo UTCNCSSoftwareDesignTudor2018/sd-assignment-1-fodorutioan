@@ -34,11 +34,10 @@ public class RegistrationDAO {
                         resultSet.getString(3));
                 registrations.add(r);
             }
-
             System.out.println("Registrations:" + registrations);
             return registrations;
         } catch (SQLException e) {
-            System.out.println("Enrollment error Exception!");
+            System.out.println("Registration error Exception!");
         } finally {
             ConnectionFactory.close(resultSet);
             ConnectionFactory.close(statement);

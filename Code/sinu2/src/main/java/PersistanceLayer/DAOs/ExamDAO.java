@@ -41,6 +41,8 @@ public class ExamDAO {
                 registeredExams.add(e);
             }
 
+            System.out.println("Registered exams: " + registeredExams);
+
             statement2 = connection.prepareStatement(
                     "SELECT exams.*, courses.name from exams INNER JOIN courses ON courses.id = exams.course_id");
             System.out.println(statement2);
@@ -56,6 +58,7 @@ public class ExamDAO {
                 allExams.add(e);
             }
 
+            System.out.println("All exams: " + allExams);
             examsNotRegistered = new LinkedList<Exam>();
             for (Exam e2: allExams) {
                 boolean belongs = false;
@@ -69,7 +72,7 @@ public class ExamDAO {
                 }
             }
 
-            System.out.println("Extracted" + examsNotRegistered);
+            System.out.println("Extracted(exams not taken): " + examsNotRegistered);
             return examsNotRegistered;
         } catch (SQLException e) {
             System.out.println("Exam error Exception!");

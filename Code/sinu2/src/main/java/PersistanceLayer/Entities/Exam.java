@@ -1,6 +1,7 @@
 package PersistanceLayer.Entities;
 
 import java.sql.Date;
+import java.util.Objects;
 
 /**
  * Created by Ioan on 3/27/2018.
@@ -65,5 +66,19 @@ public class Exam {
 
     public void setCourseName(String courseName) {
         this.courseName = courseName;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Exam exam = (Exam) o;
+        return Objects.equals(examID, exam.examID);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(examID);
     }
 }
