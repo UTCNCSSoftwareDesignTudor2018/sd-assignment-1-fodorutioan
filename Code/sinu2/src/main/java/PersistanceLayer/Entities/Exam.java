@@ -7,31 +7,39 @@ import java.sql.Date;
  */
 public class Exam {
 
-    private String examID;
-    private String courseID;
+    private Long examID;
+    private Long courseID;
     private String room;
     private Date date;
+    private String courseName;
 
-    public Exam(String examID, String courseID, String room, Date date) {
+    public Exam(Long examID, Long courseID, String room, Date date) {
         this.examID = examID;
         this.courseID = courseID;
         this.room = room;
         this.date = date;
     }
 
-    public String getExamID() {
+    public Exam(Long examID, String room, Date date, String courseName) {
+        this.examID = examID;
+        this.room = room;
+        this.date = date;
+        this.courseName = courseName;
+    }
+
+    public Long getExamID() {
         return examID;
     }
 
-    public void setExamID(String examID) {
+    public void setExamID(Long examID) {
         this.examID = examID;
     }
 
-    public String getCourseID() {
+    public Long getCourseID() {
         return courseID;
     }
 
-    public void setCourseID(String courseID) {
+    public void setCourseID(Long courseID) {
         this.courseID = courseID;
     }
 
@@ -49,5 +57,13 @@ public class Exam {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
     }
 }

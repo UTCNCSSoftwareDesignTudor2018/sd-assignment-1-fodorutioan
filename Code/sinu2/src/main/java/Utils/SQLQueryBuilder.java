@@ -26,26 +26,4 @@ public class SQLQueryBuilder {
         return sb.toString();
     }
 
-//    public static String createUpdate(String table, LinkedList<String> fields, LinkedList<String> values) {
-//        StringBuilder sb = new StringBuilder();
-//
-//        sb.append("UPDATE ");
-//        sb.append(table);
-//        sb.append(" SET ");
-//        for (String field: fields) {
-//            sb.append(field);
-//            sb.append()
-//        }
-//
-//        "students",
-//                "name", name,
-//                "address", address,
-//                "CNP", CNP,
-//                "email", email,
-//                "group", group,
-//                "id", ID);
-//    }
-
-
-
 }

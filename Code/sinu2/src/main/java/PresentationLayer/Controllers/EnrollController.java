@@ -32,7 +32,7 @@ public class EnrollController {
     public void initialize() {
         LinkedList<Course> courses = courseBLL.selectCoursesNotTakenBy(student.getStudentID());
         LinkedList<Enrollment> enrollments = enrollmentBLL.selectByStudentID(student.getStudentID());
-        System.out.println("Courses to enroll:" + courses);
+        System.out.println("Courses to enroll: 0" + courses);
         System.out.println("Enrollments: " + enrollments);
         this.enrollView = new EnrollView(courses, enrollments);
         this.enrollView.addBackButtonListener(new BackButtonListener());

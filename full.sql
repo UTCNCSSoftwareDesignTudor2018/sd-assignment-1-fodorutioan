@@ -85,6 +85,7 @@ DROP TABLE IF EXISTS `courses`;
 
 CREATE TABLE `courses` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
   `teacher_id` bigint(20) NOT NULL,
   `startDate` date DEFAULT NULL,
   `endDate` date DEFAULT NULL,
@@ -93,26 +94,26 @@ CREATE TABLE `courses` (
   CONSTRAINT `teachers_courses_fk` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('1', '9', '1995-07-16', '1980-09-08');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('2', '19', '1996-05-25', '2001-09-21');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('3', '2', '1971-06-16', '2009-09-04');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('4', '18', '1978-10-07', '1999-03-16');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('5', '13', '2013-10-26', '1999-04-24');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('6', '5', '1993-05-08', '2002-10-08');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('7', '1', '2016-12-28', '2000-11-23');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('8', '6', '1973-11-20', '1990-05-02');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('9', '5', '1997-12-30', '1978-12-13');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('10', '16', '1982-07-18', '1979-01-10');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('11', '8', '1988-01-19', '2013-09-12');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('12', '17', '1991-12-10', '1997-11-04');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('13', '20', '1998-02-24', '1978-10-30');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('14', '20', '2009-07-04', '1981-04-23');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('15', '4', '1971-02-17', '1990-12-11');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('16', '4', '2014-12-23', '2016-12-03');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('17', '13', '1972-01-23', '1986-10-05');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('18', '9', '1994-03-09', '1976-05-24');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('19', '17', '1985-04-30', '2015-11-14');
-INSERT INTO `courses` (`id`, `teacher_id`, `startDate`, `endDate`) VALUES ('20', '10', '2003-12-22', '1995-10-07');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('1', 'SD', '9', '1995-07-16', '1980-09-08');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('2', 'ASDN', '19', '1996-05-25', '2001-09-21');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('3', 'FLT', '2', '1971-06-16', '2009-09-04');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('4', 'FP', '18', '1978-10-07', '1999-03-16');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('5', 'IAI', '13', '2013-10-26', '1999-04-24');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('6', 'ECG', '5', '1993-05-08', '2002-10-08');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('7', 'GPS', '1', '2016-12-28', '2000-11-23');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('8', 'LP', '6', '1973-11-20', '1990-05-02');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('9', 'MA', '5', '1997-12-30', '1978-12-13');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('10', 'LA', '16', '1982-07-18', '1979-01-10');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('11', 'SM', '8', '1988-01-19', '2013-09-12');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('12', 'CP', '17', '1991-12-10', '1997-11-04');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('13', 'IP', '20', '1998-02-24', '1978-10-30');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('14', 'DSD', '20', '2009-07-04', '1981-04-23');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('15', 'FEC', '4', '1971-02-17', '1990-12-11');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('16', 'ADC', '4', '2014-12-23', '2016-12-03');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('17', 'OOP','13', '1972-01-23', '1986-10-05');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('18', 'SMM', '9', '1994-03-09', '1976-05-24');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('19', 'NC', '17', '1985-04-30', '2015-11-14');
+INSERT INTO `courses` (`id`, `name`, `teacher_id`, `startDate`, `endDate`) VALUES ('20', 'PT', '10', '2003-12-22', '1995-10-07');
 
 
 #
@@ -191,4 +192,19 @@ INSERT INTO `exams` (`id`, `course_id`, `room`, `date`) VALUES ('18', '2', '149'
 INSERT INTO `exams` (`id`, `course_id`, `room`, `date`) VALUES ('19', '17', '224', '1971-12-28');
 INSERT INTO `exams` (`id`, `course_id`, `room`, `date`) VALUES ('20', '17', '265', '2014-08-25');
 
+
+#
+# TABLE STRUCTURE FOR: registrations
+#
+
+DROP TABLE IF EXISTS `registrations`;
+
+CREATE TABLE `registrations` (
+  `exam_id` bigint(20) NOT NULL,
+  `student_id` bigint(20) NOT NULL,
+  PRIMARY KEY (`exam_id`,`student_id`),
+  KEY `students_registrations_fk` (`student_id`),
+  CONSTRAINT `exams_registrations_fk` FOREIGN KEY (`exam_id`) REFERENCES `exams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `students_registrations_fk` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 

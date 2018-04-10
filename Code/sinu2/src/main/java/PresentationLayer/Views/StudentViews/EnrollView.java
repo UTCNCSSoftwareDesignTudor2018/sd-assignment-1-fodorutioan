@@ -30,12 +30,11 @@ public class EnrollView extends JFrame {
         Enrollment[] enrolls = new Enrollment[ enrollments.size() ];
         enrollments.toArray(enrolls);
         //enrolledList.setListData(enrolls);
-        Object columnNames[] = { "Course ID", "Course", "Teacher", "Grade", "Status", "Start date", "End date" };
+        Object columnNames[] = { "Course", "Teacher", "Grade", "Status", "Start date", "End date" };
         enrollmentsTable.addColumn(new TableColumn() );
         DefaultTableModel model = new DefaultTableModel(columnNames, 0);
         for (Enrollment e: enrollments) {
             Object rowData[] = {
-                    e.getCourseID(),
                     e.getCourseName(),
                     e.getTeacherName(),
                     e.getMark(),
