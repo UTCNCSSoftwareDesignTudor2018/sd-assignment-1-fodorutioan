@@ -1,6 +1,7 @@
 package PersistanceLayer.Entities;
 
 import java.sql.Date;
+import java.util.Objects;
 
 /**
  * Created by Ioan on 3/27/2018.
@@ -59,4 +60,28 @@ public class Course {
     public void setTeacherID(Long teacherID) {
         this.teacherID = teacherID;
     }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "courseID=" + courseID +
+                ", courseName='" + courseName + '\'' +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", teacherID=" + teacherID +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Course course = (Course) o;
+        return Objects.equals(courseID, course.courseID) &&
+                Objects.equals(courseName, course.courseName) &&
+                Objects.equals(startDate, course.startDate) &&
+                Objects.equals(endDate, course.endDate) &&
+                Objects.equals(teacherID, course.teacherID);
+    }
+
 }

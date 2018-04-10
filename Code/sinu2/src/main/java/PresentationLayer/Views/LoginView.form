@@ -27,7 +27,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="windler.eden"/>
+          <text value="fprice"/>
         </properties>
       </component>
       <component id="4aab8" class="javax.swing.JButton" binding="studentLogInButton" default-binding="true">
