@@ -79,4 +79,15 @@ public class StudentBLL {
         }
     }
 
+    public String generateReport(Long studentID) {
+        idValidator = new IDValidator();
+
+        if (idValidator.validate(studentID)) {
+            return studentDAO.generateReport(studentID);
+        } else {
+            System.out.println("Invalid data!");
+            return null;
+        }
+    }
+
 }

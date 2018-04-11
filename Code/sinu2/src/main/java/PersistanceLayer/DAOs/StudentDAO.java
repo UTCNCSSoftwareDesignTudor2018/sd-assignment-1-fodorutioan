@@ -1,5 +1,6 @@
 package PersistanceLayer.DAOs;
 
+import PersistanceLayer.Entities.Registration;
 import PersistanceLayer.Entities.Student;
 import Utils.ConnectionFactory;
 import Utils.SQLQueryBuilder;
@@ -179,4 +180,46 @@ public class StudentDAO {
         }
         return false;
     }
+
+    public String generateReport(Long studentID) {
+        String report = null;
+        PreparedStatement statement = null;
+        ResultSet resultSet = null;
+        Connection connection = null;
+        try {
+
+            connection = ConnectionFactory.getConnection();
+            statement = connection.prepareStatement(
+                    "SELECT courses.name, enrollments.grade, registrations.status, courses.startDate, courses.endDate from courses INNER JOIN enrollments ON courses.id = enrollments.course_id INNER JOIN exams on exams.course_id = courses.id INNER JOIN registrations ON exams.id = registrations.exam_id WHERE registrations.student_id =? AND enrollments.student_id =?");
+            statement.setLong(1, studentID);
+            statement.setLong(2, studentID);
+
+            System.out.println(statement);
+            resultSet = statement.executeQuery();
+            StringBuilder sb = new StringBuilder();
+            while (resultSet.next()) {
+                sb.append(resultSet.getString(1));
+                sb.append(" | ");
+                sb.append(resultSet.getLong(2));
+                sb.append(" | ");
+                sb.append(resultSet.getString(3));
+                sb.append(" | ");
+                sb.append(resultSet.getDate(4));
+                sb.append(" | ");
+                sb.append(resultSet.getDate(5));
+                sb.append("\n");
+            }
+            report = sb.toString();
+            System.out.println("Report:" + report);
+            return report;
+        } catch (SQLException e) {
+            System.out.println("Report error Exception!");
+        } finally {
+            ConnectionFactory.close(resultSet);
+            ConnectionFactory.close(statement);
+            ConnectionFactory.close(connection);
+        }
+        return report;
     }
+
+}
