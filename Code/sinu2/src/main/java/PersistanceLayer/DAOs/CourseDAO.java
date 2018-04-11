@@ -26,8 +26,6 @@ public class CourseDAO {
         ResultSet resultSet = null;
         Connection connection = null;
         try {
-
-
             connection = ConnectionFactory.getConnection();
             statement = connection.prepareStatement(
                     "SELECT courses.* from courses INNER JOIN enrollments ON courses.id = enrollments.course_id WHERE student_id =?");

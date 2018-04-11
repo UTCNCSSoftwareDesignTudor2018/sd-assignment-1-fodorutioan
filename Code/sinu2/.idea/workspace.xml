@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d13665f1-3e2d-424e-9607-49bdebb39d86" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/AbstractDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,42 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SelectStudentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/SelectStudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="32" column="8" selection-start-line="32" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectStudentView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReportView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReportController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/ReportController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +45,7 @@
       <file leaf-file-name="EditStudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/EditStudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="486">
               <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,39 +54,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/">
+      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Teacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLQueryBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/SQLQueryBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/PresentationLayer.MainApp" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/PresentationLayer.MainApp">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement />
+              <OriginalElement>PresentationLayer.MainApp</OriginalElement>
               <nodes>
-                <node x="168.0" y="456.0">com</node>
-                <node x="199.0" y="304.0">images</node>
-                <node x="0.0" y="304.0">netscape</node>
-                <node x="0.0" y="380.0">oracle</node>
-                <node x="162.0" y="532.0">org</node>
-                <node x="303.0" y="0.0">toolbarButtonGraphics</node>
-                <node x="0.0" y="76.0">PresentationLayer</node>
-                <node x="0.0" y="532.0">sun</node>
-                <node x="242.0" y="228.0">META-INF</node>
-                <node x="323.0" y="532.0">jdk</node>
-                <node x="253.0" y="152.0">groovyjarjarasm</node>
-                <node x="334.0" y="456.0">java</node>
-                <node x="385.0" y="304.0">groovy</node>
-                <node x="0.0" y="456.0">Utils</node>
-                <node x="358.0" y="380.0">javax</node>
-                <node x="0.0" y="228.0">BussinessLayer</node>
-                <node x="0.0" y="152.0">PersistanceLayer</node>
-                <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
-                <node x="179.0" y="380.0">javafx</node>
-                <node x="263.0" y="76.0">groovyjarjarantlr</node>
+                <node x="4.0" y="-4.0">PresentationLayer.MainApp</node>
               </nodes>
               <notes />
               <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="41.0" y="220.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-453.5" y="-194.0" />
               <SelectedNodes>
-                <node>toolbarButtonGraphics</node>
+                <node>PresentationLayer.MainApp</node>
               </SelectedNodes>
               <Categories />
               <SCOPE>All</SCOPE>
@@ -129,51 +103,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaScript-modules-diagram//home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer/BussinessLogic;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer/Validators;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer/DAOs;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer/Entities;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers/StudentControllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers/TeacherControllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/Images;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/StudentViews;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/TeacherViews;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/Utils;" pinned="false" current-in-tab="false">
-        <entry file="uml://JavaScript-modules-diagram//home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer/BussinessLogic;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer/Validators;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer/DAOs;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer/Entities;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers/StudentControllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers/TeacherControllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/Images;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/StudentViews;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/TeacherViews;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/Utils;">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-251">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/PersistanceLayer.Entities.Course" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/PersistanceLayer.Entities.Course">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
-              <ID>JavaScript-modules-diagram</ID>
-              <OriginalElement>$PROJECT_DIR$/src/main/java/BussinessLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer/BussinessLogic;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/BussinessLayer/Validators;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer/DAOs;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PersistanceLayer/Entities;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers/StudentControllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Controllers/TeacherControllers;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/Images;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/StudentViews;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/PresentationLayer/Views/TeacherViews;/home/ioan/Documents/An_3/Semestrul_2/SD/Assignments/A1/sd-assignment-1-fodorutioan/Code/sinu2/src/main/java/Utils;</OriginalElement>
-              <nodes />
+              <ID>JAVA</ID>
+              <OriginalElement>PersistanceLayer.Entities.Course</OriginalElement>
+              <nodes>
+                <node x="-266.0" y="88.0">PersistanceLayer.Entities.Course</node>
+              </nodes>
               <notes />
               <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-460.5" y="-194.0" />
               <SelectedNodes />
-              <Categories>
-                <Category>All</Category>
-              </Categories>
-              <VISIBILITY>Details</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Teacher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/StudentDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3510">
-              <caret line="207" column="33" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/RegistrationDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="35" selection-start-line="22" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -212,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/LogInValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/EnrollmentDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Enrollment.java" />
@@ -258,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.form" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/ReportController.java" />
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java" />
       </list>
     </option>
   </component>
@@ -285,8 +248,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2281" />
     <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
@@ -297,8 +260,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -339,6 +302,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BussinessLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="Validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PersistanceLayer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,7 +319,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PersistanceLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PersistanceLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentControllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
@@ -372,7 +381,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Working/MultiThreading" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Doc" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -515,6 +524,8 @@
       <workItem from="1523379189079" duration="19808000" />
       <workItem from="1523458153096" duration="4309000" />
       <workItem from="1523463564716" duration="515000" />
+      <workItem from="1523467304239" duration="41000" />
+      <workItem from="1523467368505" duration="1183000" />
     </task>
     <task id="LOCAL-00001" summary="Logo">
       <created>1523055757101</created>
@@ -569,7 +580,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144136000" />
+    <option name="totallyTimeSpent" value="145360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,7 +592,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
+    <frame x="1431" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843652" />
@@ -596,9 +608,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843652" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24063745" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17247097" />
       <window_info anchor="right" id="Database" order="6" weight="0.3289256" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.22675367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -607,10 +618,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3369735" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3369735" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.22675367" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,53 +677,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/RegistrationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="35" selection-start-line="22" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/EditStudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2286">
@@ -726,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,9 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,13 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-672">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="83" column="31" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="83" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -895,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="26" column="22" selection-start-line="26" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,13 +919,6 @@
             <element signature="e#2001#2002#0" expanded="true" />
             <element signature="e#2046#2047#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/SQLQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1058,50 +988,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/EditStudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="486">
           <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="168.0" y="456.0">com</node>
-            <node x="199.0" y="304.0">images</node>
-            <node x="0.0" y="304.0">netscape</node>
-            <node x="0.0" y="380.0">oracle</node>
-            <node x="162.0" y="532.0">org</node>
-            <node x="303.0" y="0.0">toolbarButtonGraphics</node>
-            <node x="0.0" y="76.0">PresentationLayer</node>
-            <node x="0.0" y="532.0">sun</node>
-            <node x="242.0" y="228.0">META-INF</node>
-            <node x="323.0" y="532.0">jdk</node>
-            <node x="253.0" y="152.0">groovyjarjarasm</node>
-            <node x="334.0" y="456.0">java</node>
-            <node x="385.0" y="304.0">groovy</node>
-            <node x="0.0" y="456.0">Utils</node>
-            <node x="358.0" y="380.0">javax</node>
-            <node x="0.0" y="228.0">BussinessLayer</node>
-            <node x="0.0" y="152.0">PersistanceLayer</node>
-            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
-            <node x="179.0" y="380.0">javafx</node>
-            <node x="263.0" y="76.0">groovyjarjarantlr</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="41.0" y="220.0" />
-          <SelectedNodes>
-            <node>toolbarButtonGraphics</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1118,14 +1009,161 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="378">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/SQLQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/PresentationLayer.MainApp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>PresentationLayer.MainApp</OriginalElement>
+          <nodes>
+            <node x="4.0" y="-4.0">PresentationLayer.MainApp</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-453.5" y="-194.0" />
+          <SelectedNodes>
+            <node>PresentationLayer.MainApp</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/PersistanceLayer.Entities.Course">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>PersistanceLayer.Entities.Course</OriginalElement>
+          <nodes>
+            <node x="-266.0" y="88.0">PersistanceLayer.Entities.Course</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-460.5" y="-194.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/BussinessLayer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>BussinessLayer</OriginalElement>
+          <nodes>
+            <node x="" y="">BussinessLayer.BussinessLogic</node>
+            <node x="" y="">BussinessLayer.Validators</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="98.5" y="53.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">PresentationLayer.Controllers.StudentControllers.EnrollController</node>
+            <node x="" y="">PresentationLayer.Views.TeacherViews.ReportView</node>
+            <node x="" y="">PresentationLayer.Views.StudentViews.StudentProfileView</node>
+            <node x="" y="">PresentationLayer.Views.LoginView</node>
+            <node x="" y="">PersistanceLayer.Entities.Course</node>
+            <node x="" y="">PersistanceLayer.DAOs.CourseDAO</node>
+            <node x="" y="">BussinessLayer.BussinessLogic.CourseBLL</node>
+            <node x="" y="">PresentationLayer.Controllers.LoginController</node>
+            <node x="" y="">BussinessLayer.Validators.NameValidator</node>
+            <node x="" y="">PresentationLayer.Controllers.StudentControllers.StudentController</node>
+            <node x="" y="">PresentationLayer.Views.TeacherViews.TeacherView</node>
+            <node x="" y="">PresentationLayer.Views.StudentViews.StudentView</node>
+            <node x="" y="">PresentationLayer.MainApp</node>
+            <node x="" y="">BussinessLayer.Validators.CNPValidator</node>
+            <node x="" y="">BussinessLayer.BussinessLogic.RegistrationBLL</node>
+            <node x="" y="">BussinessLayer.BussinessLogic.StudentBLL</node>
+            <node x="" y="">BussinessLayer.Validators.AddressValidator</node>
+            <node x="" y="">BussinessLayer.BussinessLogic.EnrollmentBLL</node>
+            <node x="" y="">PersistanceLayer.Entities.Exam</node>
+            <node x="" y="">PersistanceLayer.DAOs.EnrollmentDAO</node>
+            <node x="" y="">BussinessLayer.BussinessLogic.TeacherBLL</node>
+            <node x="" y="">PersistanceLayer.Entities.Student</node>
+            <node x="" y="">BussinessLayer.Validators.IDValidator</node>
+            <node x="" y="">PersistanceLayer.DAOs.ExamDAO</node>
+            <node x="" y="">PersistanceLayer.Entities.Registration</node>
+            <node x="" y="">PersistanceLayer.DAOs.TeacherDAO</node>
+            <node x="" y="">BussinessLayer.Validators.GroupValidator</node>
+            <node x="" y="">PresentationLayer.Controllers.TeacherControllers.TeacherController</node>
+            <node x="" y="">BussinessLayer.Validators.LogInValidator</node>
+            <node x="" y="">PersistanceLayer.Entities.Enrollment</node>
+            <node x="" y="">PresentationLayer.Controllers.TeacherControllers.SelectStudentController</node>
+            <node x="" y="">PresentationLayer.Controllers.TeacherControllers.EditStudentController</node>
+            <node x="" y="">PresentationLayer.Views.TeacherViews.EditStudentView</node>
+            <node x="" y="">PresentationLayer.Views.TeacherViews.SelectStudentView</node>
+            <node x="" y="">PresentationLayer.Controllers.StudentControllers.ExamRegisterController</node>
+            <node x="" y="">PresentationLayer.Controllers.StudentControllers.StudentProfileController</node>
+            <node x="" y="">BussinessLayer.BussinessLogic.ExamBLL</node>
+            <node x="" y="">PresentationLayer.Views.StudentViews.ExamRegisterView</node>
+            <node x="" y="">BussinessLayer.Validators.EmailValidator</node>
+            <node x="" y="">PersistanceLayer.DAOs.StudentDAO</node>
+            <node x="" y="">PersistanceLayer.Entities.Teacher</node>
+            <node x="" y="">PresentationLayer.Views.StudentViews.EnrollView</node>
+            <node x="" y="">PersistanceLayer.DAOs.RegistrationDAO</node>
+            <node x="" y="">PresentationLayer.Controllers.TeacherControllers.ReportController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5353654927493341" x="1497.5" y="444.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
