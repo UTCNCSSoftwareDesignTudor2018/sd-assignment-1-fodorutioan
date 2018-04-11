@@ -9,6 +9,9 @@ import java.sql.PreparedStatement;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.LinkedList;
+
+import static Utils.SQLQueryBuilder.*;
 
 /**
  * Created by Ioan on 3/27/2018.
@@ -41,13 +44,49 @@ public class StudentDAO {
 //        }
 //    }
 
+    public LinkedList<Student> selectAll() {
+        LinkedList<Student> allStudents = null;
+        PreparedStatement statement = null;
+        ResultSet resultSet = null;
+        Connection connection = null;
+        try {
+            connection = ConnectionFactory.getConnection();
+            statement = connection.prepareStatement(
+                    "SELECT * FROM students");
+            System.out.println(statement);
+            resultSet = statement.executeQuery();
+            allStudents = new LinkedList<Student>();
+            while (resultSet.next()) {
+                Student s = new Student(
+                        resultSet.getLong(1),
+                        resultSet.getString(2),
+                        resultSet.getString(3),
+                        resultSet.getString(4),
+                        resultSet.getString(5),
+                        resultSet.getString(6),
+                        resultSet.getString(7),
+                        resultSet.getString(8));
+                allStudents.add(s);
+            }
+            return allStudents;
+        } catch (SQLException e) {
+            System.out.println(e);
+            System.out.println("Student error Exception!");
+        } finally {
+            ConnectionFactory.close(resultSet);
+            ConnectionFactory.close(statement);
+            ConnectionFactory.close(connection);
+        }
+        return allStudents;
 
-    public Student findStudentByUserName(String username) {
+    }
+
+    public Student selectStudentByUserName(String username) {
         Student student = null;
         PreparedStatement statement = null;
         ResultSet resultSet = null;
         Connection connection = null;
-        String query = SQLQueryBuilder.createSelect("students", "user", username);
+        String query = createSelect("students", "user", username);
         System.out.println(query);
         try {
             connection = ConnectionFactory.getConnection();
@@ -74,6 +113,40 @@ public class StudentDAO {
         }
         return student;
     }
+
+    public Student selectStudentByID(Long studentID) {
+        Student student = null;
+        PreparedStatement statement = null;
+        ResultSet resultSet = null;
+        Connection connection = null;
+        String query = createSelect("students", "id", studentID.toString());
+        System.out.println(query);
+        try {
+            connection = ConnectionFactory.getConnection();
+            statement = connection.prepareStatement(query);
+            resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                student = (new Student(
+                        resultSet.getLong(1),
+                        resultSet.getString(2),
+                        resultSet.getString(3),
+                        resultSet.getString(4),
+                        resultSet.getString(5),
+                        resultSet.getString(6),
+                        resultSet.getString(7),
+                        resultSet.getString(8)
+                ));
+            }
+        } catch (SQLException e) {
+            System.out.println("Login error Exception!");
+        } finally {
+            ConnectionFactory.close(resultSet);
+            ConnectionFactory.close(statement);
+            ConnectionFactory.close(connection);
+        }
+        return student;
+    }
+
 
     public boolean update(String name, String address, String CNP, String email, String group, Long ID) {
         PreparedStatement statement = null;

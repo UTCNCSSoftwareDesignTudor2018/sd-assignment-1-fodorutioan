@@ -5,10 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 
 public class TeacherView extends JFrame {
-    private JButton personalInformationButton;
-    private JButton publicProfileButton;
-    private JButton enrollCourseButton;
-    private JButton registerForExamSessionButton;
+    private JButton editStudentButton;
+    private JButton generateReportButton;
     private JPanel backPanel;
     private JLabel logo;
 
@@ -20,20 +18,12 @@ public class TeacherView extends JFrame {
         this.setLocationRelativeTo(null);
     }
 
-    public void addPersonalInformationButtonListener(ActionListener listenForInformationButton) {
-        personalInformationButton.addActionListener(listenForInformationButton);
+    public void addEditStudentButtonListener(ActionListener listenForEditStudentButton) {
+        editStudentButton.addActionListener(listenForEditStudentButton);
     }
 
-    public void addPublicProfileButtonListener(ActionListener listenForProfileButton) {
-        publicProfileButton.addActionListener(listenForProfileButton);
-    }
-
-    public void addEnrollCourseButtonListener(ActionListener listenForEnrollButton) {
-        enrollCourseButton.addActionListener(listenForEnrollButton);
-    }
-
-    public void addExamRegisterButtonListener(ActionListener listenForEnrollButton) {
-        registerForExamSessionButton.addActionListener(listenForEnrollButton);
+    public void addGenerateReportButtonListener(ActionListener listenForGenerateReportButton) {
+        generateReportButton.addActionListener(listenForGenerateReportButton);
     }
 
     private void createUIComponents() {

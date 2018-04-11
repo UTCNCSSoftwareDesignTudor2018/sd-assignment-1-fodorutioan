@@ -4,6 +4,8 @@ import BussinessLayer.BussinessLogic.StudentBLL;
 import BussinessLayer.BussinessLogic.TeacherBLL;
 import PersistanceLayer.Entities.Student;
 import PersistanceLayer.Entities.Teacher;
+import PresentationLayer.Controllers.StudentControllers.StudentController;
+import PresentationLayer.Controllers.TeacherControllers.TeacherController;
 import PresentationLayer.Views.LoginView;
 
 import java.awt.event.ActionEvent;

@@ -4,6 +4,9 @@ import BussinessLayer.Validators.*;
 import PersistanceLayer.DAOs.StudentDAO;
 import PersistanceLayer.Entities.Student;
 
+import java.sql.SQLOutput;
+import java.util.LinkedList;
+
 /**
  * Created by Ioan on 3/27/2018.
  */
@@ -24,7 +27,7 @@ public class StudentBLL {
     }
 
     public Student logIn(String username, String password) {
-        Student student = studentDAO.findStudentByUserName(username);
+        Student student = studentDAO.selectStudentByUserName(username);
         logInValidator = new LogInValidator();
         if (logInValidator.validateStudentLogIn(student, password)) {
             return student;
@@ -59,6 +62,21 @@ public class StudentBLL {
         }
 
         return false;
+    }
+
+    public LinkedList<Student> selectAll() {
+        return studentDAO.selectAll();
+    }
+
+    public Student selectStudentByID(Long studentID) {
+        idValidator = new IDValidator();
+
+        if (idValidator.validate(studentID)) {
+            return studentDAO.selectStudentByID(studentID);
+        } else {
+            System.out.println("Invalid data!");
+            return null;
+        }
     }
 
 }

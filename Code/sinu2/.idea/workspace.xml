@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13665f1-3e2d-424e-9607-49bdebb39d86" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/EnrollmentBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/EnrollmentBLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/ExamDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/ExamDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/RegistrationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/RegistrationDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Exam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EnrollController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EnrollController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/ExamRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/ExamRegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/LoginView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/LoginView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/StudentBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/StudentBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/EnrollmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/EnrollmentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EditStudentInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EnrollController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/ExamRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PresentationLayer/Controllers/ExamRegisterController$BackButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PresentationLayer/Controllers/ExamRegisterController$RegisterButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PresentationLayer/Controllers/ExamRegisterController.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,20 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StudentProfileView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentProfileView.java">
+      <file leaf-file-name="SelectStudentController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/SelectStudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="212" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="212" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditStudentInformationView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2196">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="293">
+              <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,79 +57,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentController.java">
+      <file leaf-file-name="SelectStudentView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="468">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditStudentInformationView.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.form">
+      <file leaf-file-name="TeacherView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file leaf-file-name="StudentProfileController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentProfileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="89" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExamRegisterController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/ExamRegisterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditStudentInformationController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EditStudentInformationController.java">
+      <file leaf-file-name="ReportView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="SelectStudentView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="EditStudentView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="129" selection-start-line="129" selection-end-line="131" selection-end-column="5" />
               <folding>
-                <element signature="e#2719#2720#0" expanded="true" />
-                <element signature="e#2770#2771#0" expanded="true" />
-                <element signature="e#2897#2898#0" expanded="true" />
-                <element signature="e#2948#2949#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentView.java">
+      <file leaf-file-name="EditStudentView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="ExamDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/ExamDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="-103">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentView.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentView.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="StudentProfileView.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentProfileView.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+      <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/TeacherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -137,6 +138,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="yet_unknown" />
         <option value="Class" />
       </list>
     </option>
@@ -144,6 +146,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>student</find>
+      <find>studentProfileView</find>
+      <find>Information</find>
+      <find>edit</find>
+      <find>createSelectAll</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/resources</dir>
@@ -156,29 +162,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/IDValidator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/EmailValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/CNPValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/GroupValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/StudentBLL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/ProfileBLL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/StudentDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/StudentPersonalInformationView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherStudentInformationEditView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/LoginView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentProfileController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentProfileView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/AddressValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentView.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentView.form" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentProfileView.form" />
         <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/CourseBLL.java" />
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/StudentBLL.java" />
         <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/LogInValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java" />
@@ -200,13 +188,31 @@
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/ExamDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Exam.java" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/LoginView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.form" />
         <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EditStudentInformationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/SelectStudentView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/SelectStudentView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EditStudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/SelectStudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/GenerateReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/ReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentControllers/ExamRegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/EditStudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/ReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/StudentBLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/SelectStudentController.java" />
       </list>
     </option>
   </component>
@@ -235,10 +241,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
+    <option name="x" value="2019" />
     <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="width" value="542" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -294,15 +300,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BussinessLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="Validators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PersistanceLayer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,6 +336,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentControllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="TeacherControllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
@@ -389,28 +406,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentViews" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentProfileView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentViews" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="TeacherViews" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,7 +417,7 @@
               <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="TeacherViews" type="462c0819:PsiDirectoryNode" />
-              <item name="EditStudentInformationView" type="e9f4de52:FormNode" />
+              <item name="EditStudentView" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
@@ -434,6 +429,17 @@
               <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="TeacherViews" type="462c0819:PsiDirectoryNode" />
               <item name="ReportView" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinu2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="TeacherViews" type="462c0819:PsiDirectoryNode" />
+              <item name="SelectStudentView" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="sinu" type="b2602c69:ProjectViewProjectNode" />
@@ -475,10 +481,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="147" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="317" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="351" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -494,9 +500,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews" />
       <recent name="$PROJECT_DIR$/src/main/java/PresentationLayer/Views" />
       <recent name="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/Images" />
-      <recent name="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews" />
       <recent name="$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews" />
       <recent name="$PROJECT_DIR$/src/main/java/PresentationLayer/views" />
     </key>
@@ -622,7 +628,7 @@
       <workItem from="1523069536476" duration="1820000" />
       <workItem from="1523114789320" duration="21345000" />
       <workItem from="1523369263553" duration="2224000" />
-      <workItem from="1523379189079" duration="13537000" />
+      <workItem from="1523379189079" duration="19808000" />
     </task>
     <task id="LOCAL-00001" summary="Logo">
       <created>1523055757101</created>
@@ -666,11 +672,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523391576673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Teacher flows working.">
+      <created>1523403185855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523403185855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133041000" />
+    <option name="totallyTimeSpent" value="139312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,25 +695,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1431" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33853355" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843652" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33788037" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50115293" side_tool="true" weight="0.14196567" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.28237128" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.28226653" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49884704" visible="true" weight="0.28331584" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843652" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24654505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23327805" />
       <window_info anchor="right" id="Database" order="6" weight="0.3289256" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21720882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -712,7 +726,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,7 +771,8 @@
     <MESSAGE value="CoursesDAO added." />
     <MESSAGE value="Enrollments working." />
     <MESSAGE value="Student flows working perfectly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Student flows working perfectly." />
+    <MESSAGE value="Teacher flows working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Teacher flows working." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,95 +780,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/StringUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/LogInValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/IDValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/Validators/EmailValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/SQLQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/StudentBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/EnrollView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/ExamRegisterView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/RegistrationBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/CourseBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -862,13 +787,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/TeacherBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -890,46 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/ExamRegisterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="27" column="30" selection-start-line="27" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EnrollController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/EnrollmentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,30 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/ExamDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="80" column="47" lean-forward="true" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/ExamBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/EnrollView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1002,23 +860,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/StudentProfileView.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Exam.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1078,12 +919,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformation.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -1094,68 +929,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentProfileView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/ExamRegisterView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="212" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="212" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentProfileView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/StudentProfileView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2196">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="62">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="212" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentControllers/EnrollController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentControllers/StudentProfileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="1422">
+          <caret line="83" selection-start-line="83" selection-end-line="89" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentProfileController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/EditStudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="89" selection-end-column="5" />
+        <state relative-caret-position="822">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/ExamRegisterController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/EnrollView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="198">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentInformationView.form">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/SQLQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/EnrollmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/CourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="83" column="31" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/Entities/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="53" selection-start-line="53" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentControllers/ExamRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="22" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/TeacherBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/StudentControllers/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BussinessLayer/BussinessLogic/StudentBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PersistanceLayer/DAOs/ExamDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/StudentViews/ExamRegisterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="47" column="53" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="129" selection-start-line="129" selection-end-line="131" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/EditStudentView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/EditStudentInformationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/TeacherView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/ReportView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Views/TeacherViews/SelectStudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
-            <element signature="e#2719#2720#0" expanded="true" />
-            <element signature="e#2770#2771#0" expanded="true" />
-            <element signature="e#2897#2898#0" expanded="true" />
-            <element signature="e#2948#2949#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PresentationLayer/Controllers/TeacherControllers/SelectStudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

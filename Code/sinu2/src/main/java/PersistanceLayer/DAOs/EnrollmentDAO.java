@@ -1,8 +1,6 @@
 package PersistanceLayer.DAOs;
 
-import PersistanceLayer.Entities.Course;
 import PersistanceLayer.Entities.Enrollment;
-import PresentationLayer.Controllers.EnrollController;
 import Utils.ConnectionFactory;
 
 import java.sql.Connection;

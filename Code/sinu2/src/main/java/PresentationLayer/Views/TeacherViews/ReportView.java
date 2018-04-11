@@ -1,4 +1,6 @@
 package PresentationLayer.Views.TeacherViews;
 
-public class ReportView {
+import javax.swing.*;
+
+public class ReportView extends JFrame {
 }
